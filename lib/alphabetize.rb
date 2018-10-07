@@ -4,7 +4,7 @@ def alphabetize(arr)
   alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
     arr.sort_by do |phrase|
       phrase.split("").collect do |letter|
-         alpha.index(a)
+         alpha.index(letter)
     end
   end
  
